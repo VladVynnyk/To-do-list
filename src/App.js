@@ -11,12 +11,17 @@ function App() {
                                                 {id: 3, title: "task3", description: "task3"},
                                                 {id: 4, title: "task4", description: "task4"},
     ]);
+
+    const createTask = (newTask) => {
+        setTask([...tasks, newTask])
+    }
+
   return (
     <div className="App">
         <Header/>
         <div className="container">
             <h1 style={{marginTop: 0}}>To do list</h1>
-            <Form/>
+            <Form create={createTask}/>
             <ToDoList tasks={tasks}/>
         </div>
 
