@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './ToDoItem.module.css'
 const ToDoItem = (props) => {
-    console.log(props.task.title)
+
     return (
         <div>
             <div className={classes.container}>

@@ -16,8 +16,8 @@ function App() {
         <Header/>
         <div className="container">
             <h1 style={{marginTop: 0}}>To do list</h1>
-            <ToDoList tasks={tasks}/>
             <Form/>
+            <ToDoList tasks={tasks}/>
         </div>
 
     </div>
