@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    flex-flow: row;
+    border: 2px #cd5700 solid;
+    padding: 12px;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
