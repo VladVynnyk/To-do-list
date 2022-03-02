@@ -1,7 +1,7 @@
 .container{
     display: flex;
     flex-flow: row;
-    border: 2px #cd5700 solid;
+    border: 2px #7b38d8 solid;
     padding: 12px;
     margin-top: 15px;
     justify-content: space-between;

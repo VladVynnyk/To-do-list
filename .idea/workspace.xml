@@ -11,7 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54339c9a-ebb2-4a98-9795-d4badde3b4cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/UI/Button/Button.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ToDoList/ToDoItem/ToDoItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ToDoList/ToDoItem/ToDoItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Button/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/Input/Input.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Input/Input.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/Input/Input.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Input/Input.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +53,7 @@
       <updated>1646203355775</updated>
       <workItem from="1646203357615" duration="618000" />
       <workItem from="1646203989970" duration="14199000" />
-      <workItem from="1646229220788" duration="973000" />
+      <workItem from="1646229220788" duration="2390000" />
     </task>
     <servers />
   </component>

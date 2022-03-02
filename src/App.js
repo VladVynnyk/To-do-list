@@ -31,10 +31,8 @@ function App() {
                 ?
                 <ToDoList tasks={tasks} remove={removeTask}/>
                 :
-                <h1 style={{textAlign: 'center'}}>Tasks not added</h1>}
-
+                <h1>Tasks not added</h1>}
         </div>
-
     </div>
   );
 }
