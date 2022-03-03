@@ -37,7 +37,13 @@ function App() {
                 <ToDoList tasks={tasks} remove={removeTask}/>
                 :
                 <h1>Tasks not added</h1>}
-            <CompletedTasksList completed={completedTasks} remove={removeTask}/>
+
+            {completedTasks.length !== 0
+                ?
+                    <CompletedTasksList completed={completedTasks} remove={removeTask}/>
+                :
+                <h1>No completed tasks</h1>
+            }
         </div>
     </div>
   );
