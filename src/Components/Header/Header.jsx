@@ -5,7 +5,7 @@ const Header = () => {
         <header className={classes.header}>
             <ul className={classes.navBar}>
                 <li>
-                    FirstItem
+                    Completed tasks
                 </li>
                 <li>
                     SecondItem
