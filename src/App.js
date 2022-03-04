@@ -5,6 +5,7 @@ import Form from "./Components/Form/Form";
 import React, {useState} from "react";
 import ToDoList from "./Components/ToDoList/ToDoList";
 import CompletedTasksList from "./Components/CompletedTasksList/CompletedTasksList";
+import Timer from "./Components/Timer/Timer";
 
 function App() {
     let [tasks, setTask] = useState([{id: 1, title: "task1", description: "task1 Description"},
@@ -44,6 +45,7 @@ function App() {
                 :
                 <h1>No completed tasks</h1>
             }
+            <Timer/>
         </div>
     </div>
   );
